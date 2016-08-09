@@ -9,18 +9,61 @@
 
     <!-- Bootstrap -->
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bower_components/bootstrap/dist/css/sticky-footer.css" rel="stylesheet">
+    <link href="bower_components/bootstrap/dist/css/cantorandball.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container" ng-app>
-        <form class="form-signin">
-            <h2 class="form-signin-heading">What X  you type here:</h2>
-
-            <input ng-model="data.input" type="text" class="form-control" autofocus>
-
-            <h2 class="form-signin-heading">It will also be shown below:</h2>
-            <input type="text" class="sr-only">{{data.input}}</label>
-        </form>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="logo.gif" alt="Cantor & Ball"</img></a>
     </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Build</a></li>
+        <li><a href="#">Organise</a></li>
+        <li><a href="#">Product</a></li>
+        <li><a href="#">Sustainability</a></li>
+        <li><a href="#">Inspiration</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+    <div class="container" ng-app>
+
+	<div class="section" id="main">
+		<div class="main-image">
+	
+		</div>
+		<div class="elevator">
+			<h3>Technology can be transformative.</h3>
+			<p>We help people review and organise themselves. </p>
+			<p>We help discover, build and deliver great things.</p>
+			<p>We use our profit to grow sustainable businesses that make the world a better place. </p>
+
+			<p>It starts with a conversation. Let’s talk…</p>
+		</div>
+
+	</div>
+
+
+    </div>
+
+<footer class="footer">
+      <div class="container">
+<p class="text-muted">Place sticky footer content here.</p>
+      </div>
+    </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
