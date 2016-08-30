@@ -6,6 +6,10 @@ body{
     margin-bottom: 60px
 }
 
+#main {
+    margin-top: 72px
+}
+
 /* Colours */
 .blue {
     color: #009FDF

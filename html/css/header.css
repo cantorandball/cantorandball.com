@@ -1,6 +1,15 @@
-.navbar {
-    background-color: #fff;
+.header {
+    background-color: white;
+    border-color: white;
     border-radius: 0;
-    border: none;
-    border-bottom: #949494 1px solid;
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
+
+.header .container {
+    border-bottom: #949494 1px solid;
+    padding: 0;
+}
+
+
