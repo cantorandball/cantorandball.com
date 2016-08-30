@@ -9,3 +9,40 @@ h1, h2, h3{
 .bold {
     font-weight: 800;
 }
+
+.section {
+    margin-bottom: 24px
+}
+
+
+/* Text */
+.text{
+    margin-bottom: 24px
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* Images */
+.image{
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.image.left{
+    background-size: contain;
+}
+
+.image.center{
+    background-size: cover;
+}
+
+#home-image {
+    background-image: url('../img/cb-design-people-transform.png')
+}
+
+#build-image{
+    background-image: url('../img/build/discovery-lifecycle.png');
+    height: 337px;
+}
