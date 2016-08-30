@@ -2,12 +2,9 @@ body{
    font-family: 'Helvetica Neue', 'HelveticaNeue', 'Helvetica', 'Arial', 'Lucida Grande', sans-serif;
 }
 
-
-
 .section {
     margin-bottom: 60px
 }
-
 
 /* Colours */
 .blue {
@@ -105,11 +102,5 @@ a {
     height: 337px;
 }
 
-/* Nav */
-.navbar {
-    background-color: #fff;
-    border-radius: 0;
-    border: none;
-    border-bottom: #949494 1px solid;
-}
+
 
