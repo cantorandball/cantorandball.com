@@ -9,6 +9,31 @@ body{
 }
 
 
+/* Colours */
+.blue {
+    color: #009FDF
+}
+
+.orange {
+    color: #ED8B00
+}
+
+.pink {
+    color: #D40F7D
+}
+
+.green {
+    color: #00843D
+}
+
+.burgundy {
+    color: #BA0C2F
+}
+
+.purple {
+    color: purple;
+}
+
 /* Titles */
 
 h1, h2, h3{
@@ -21,6 +46,7 @@ h1, h2, h3{
     margin-bottom: 2px;
     color: #515664;
     font-family: 'Helvetica Neue', 'HelveticaNeue', 'Helvetica', 'Arial', 'Lucida Grande', sans-serif;
+    font-weight: 800;
 }
 
 .titles {
@@ -28,6 +54,15 @@ h1, h2, h3{
 }
 
 /* Text */
+
+p {
+    font-size: 1.2em;
+    color: #4c4c4c;
+}
+
+a {
+    color: #009FDF;
+}
 
 .text {
     margin-bottom: 24px
@@ -45,8 +80,6 @@ h1, h2, h3{
     font-size: 0.8em
 }
 
-
-
 /* Images */
 .image {
     background-repeat: no-repeat;
@@ -62,3 +95,12 @@ h1, h2, h3{
     background-image: url('../img/build/discovery-lifecycle.png');
     height: 337px;
 }
+
+/* Nav */
+.navbar {
+    background-color: #fff;
+    border-radius: 0;
+    border: none;
+    border-bottom: #4c4c4c 1px solid;
+}
+

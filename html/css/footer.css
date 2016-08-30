@@ -1,20 +1,14 @@
-
-
-
 div.container {
-
-background-color: white;
+    background-color: white;
 }
 
 div.cb_footer_logo {
-
-height: 81px;
-width:  70px;
-background: url('../img/cb_logo_footer.jpg');
-background-size: contain;
-background-repeat: no-repeat;
-float: right;
-padding: 1;
-margin: 0;
-
+    height: 81px;
+    width:  70px;
+    background: url('../img/cb_logo_footer.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: right;
+    padding: 1;
+    margin: 0;
 }
