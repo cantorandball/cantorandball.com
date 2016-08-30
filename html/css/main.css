@@ -3,6 +3,7 @@ body{
 }
 
 .section {
+    margin-top: 72px
 }
 
 #main {
@@ -42,7 +43,6 @@ h1, h2, h3{
 }
 
 .pre-title {
-    margin-top: 30px;
     margin-bottom: 2px;
     color: #515664;
     font-family: 'Helvetica Neue', 'HelveticaNeue', 'Helvetica', 'Arial', 'Lucida Grande', sans-serif;
@@ -51,6 +51,11 @@ h1, h2, h3{
 
 .titles {
     margin-bottom: 24px;
+}
+
+.col-md-12 {
+    padding-left: 0;
+    padding-right: 0
 }
 
 /* Text */
