@@ -5,7 +5,7 @@ body{
 
 
 .section {
-    margin-bottom: 24px
+    margin-bottom: 60px
 }
 
 
@@ -80,6 +80,15 @@ a {
     font-size: 0.8em
 }
 
+.quote {
+    font-size: 1em;
+    font-weight: 800;
+}
+
+.quote p {
+    font-style: italic;
+}
+
 /* Images */
 .image {
     background-repeat: no-repeat;
@@ -101,6 +110,6 @@ a {
     background-color: #fff;
     border-radius: 0;
     border: none;
-    border-bottom: #4c4c4c 1px solid;
+    border-bottom: #949494 1px solid;
 }
 
