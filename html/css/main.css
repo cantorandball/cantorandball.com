@@ -2,26 +2,18 @@ body{
    font-family: 'Helvetica Neue', 'HelveticaNeue', 'Helvetica', 'Arial', 'Lucida Grande', sans-serif;
 }
 
-h1, h2, h3{
-    font-family: 'bevan', cursive;
-    margin: 0;
-}
+
 
 .section {
     margin-bottom: 24px
 }
 
-/* Text */
-.text{
-    margin-bottom: 24px
-}
 
-.italic {
-    font-style: italic;
-}
+/* Titles */
 
-.bold {
-    font-weight: 800;
+h1, h2, h3{
+    font-family: 'bevan', cursive;
+    margin: 0;
 }
 
 .pre-title {
@@ -34,6 +26,26 @@ h1, h2, h3{
 .titles {
     margin-bottom: 24px;
 }
+
+/* Text */
+
+.text {
+    margin-bottom: 24px
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.small-text{
+    font-size: 0.8em
+}
+
+
 
 /* Images */
 .image {
