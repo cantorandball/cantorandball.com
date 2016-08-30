@@ -4,16 +4,12 @@ body{
 
 h1, h2, h3{
     font-family: 'bevan', cursive;
-}
-
-.bold {
-    font-weight: 800;
+    margin: 0;
 }
 
 .section {
     margin-bottom: 24px
 }
-
 
 /* Text */
 .text{
@@ -24,18 +20,26 @@ h1, h2, h3{
     font-style: italic;
 }
 
+.bold {
+    font-weight: 800;
+}
+
+.pre-title {
+    margin-top: 30px;
+    margin-bottom: 2px;
+    color: #515664;
+    font-family: 'Helvetica Neue', 'HelveticaNeue', 'Helvetica', 'Arial', 'Lucida Grande', sans-serif;
+}
+
+.titles {
+    margin-bottom: 24px;
+}
+
 /* Images */
-.image{
+.image {
     background-repeat: no-repeat;
     height: 300px;
-}
-
-.image.left{
     background-size: contain;
-}
-
-.image.center{
-    background-size: cover;
 }
 
 #home-image {
