@@ -108,15 +108,6 @@ a {
     height: 200px
 }
 
-#home-image {
-    background-image: url('../img/cb-design-people-transform.png')
-}
-
-#build-image{
-    background-image: url('../img/build/discovery-lifecycle.png');
-    height: 337px;
-}
-
 #spotlight-img-1 {
     background-image: url('../img/organise/spotlight-clarity.png');
 }
