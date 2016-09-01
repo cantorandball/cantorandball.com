@@ -61,13 +61,13 @@ h2 {
 }
 
 .titles {
-    margin: 24px 0;
+    margin: 5em 0 3em 0;
 }
 
 /* Text */
 
 p {
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: #4c4c4c;
 }
 
@@ -107,6 +107,10 @@ a {
     background-size: contain;
 }
 
+.col-md-4 .image{
+    height: 200px
+}
+
 #home-image {
     background-image: url('../img/cb-design-people-transform.png')
 }
@@ -129,3 +133,11 @@ a {
     background-image: url('../img/build/canvas-shelf-discovery.png');
 }
 
+#discovery-img-1 {
+    background-image: url('../img/build/discovery-uncertainty-machine.png');
+}
+
+#discovery-img-2 {
+    background-image: url('../img/build/discovery-lifecycle.png');
+    width
+}
