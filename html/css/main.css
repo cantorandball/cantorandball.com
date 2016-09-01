@@ -3,7 +3,7 @@ body{
 }
 
 .section {
-    padding: 50px 0;
+    padding: 50px 0 65px 0;
 }
 
 #main {
@@ -13,8 +13,6 @@ body{
 .space-under {
     margin-bottom: 24px
 }
-
-
 
 /* Colours */
 .blue {
@@ -98,77 +96,4 @@ a {
 
 .quote p {
     font-style: italic;
-}
-
-/* Images */
-.image {
-    background-repeat: no-repeat;
-    height: 300px;
-    background-size: contain;
-}
-
-.col-md-4 .image{
-    height: 200px
-}
-
-#home-image {
-    background-image: url('../img/cb-design-people-transform.png')
-}
-
-#build-image{
-    background-image: url('../img/build/discovery-lifecycle.png');
-    height: 337px;
-}
-
-#canvas-img-1 {
-    background-image: url('../img/build/canvas-spaceship.png')
-}
-
-#canvas-img-2 {
-    background-image: url('../img/build/canvas-map.png');
-    height: 350px
-}
-
-#canvas-img-3 {
-    background-image: url('../img/build/canvas-shelf-discovery.png');
-}
-
-#discovery-img-1 {
-    background-image: url('../img/build/discovery-uncertainty-machine.png');
-}
-
-#discovery-img-2 {
-    background-image: url('../img/build/discovery-lifecycle.png');
-}
-
-#delivery-img-1 {
-    background-image: url('../img/build/delivery-sketch-to-painting.png');
-}
-
-#delivery-img-2 {
-    background-image: url('../img/build/delivery-backlog-board.png');
-}
-
-#spotlight-img-1 {
-    background-image: url('../img/organise/spotlight-clarity.png');
-}
-
-#review-img-1 {
-    background-image: url('../img/organise/review-activity-vs-strategy.png');
-}
-
-#review-img-2 {
-    background-image: url('../img/organise/review-people-goals-process.png');
-}
-
-#organisation-img-1 {
-    background-image: url('../img/organise/transformation-continuous-improvement.png');
-}
-
-#shape-img-1 {
-    background-image: url('../img/organise/shape-gaps.png');
-}
-
-#shape-img-2 {
-    background-image: url('../img/organise/shape-team-alignment.png');
 }
