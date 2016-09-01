@@ -117,22 +117,6 @@ a {
     height: 337px;
 }
 
-#discovery-img-1 {
-    background-image: url('../img/build/discovery-uncertainty-machine.png');
-}
-
-#discovery-img-2 {
-    background-image: url('../img/build/discovery-lifecycle.png');
-}
-
-#delivery-img-1 {
-    background-image: url('../img/build/delivery-sketch-to-painting.png');
-}
-
-#delivery-img-2 {
-    background-image: url('../img/build/delivery-backlog-board.png');
-}
-
 #spotlight-img-1 {
     background-image: url('../img/organise/spotlight-clarity.png');
 }
