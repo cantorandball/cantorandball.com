@@ -10,6 +10,12 @@ body{
     padding-top: 50px
 }
 
+.space-under {
+    margin-bottom: 24px
+}
+
+
+
 /* Colours */
 .blue {
     color: #009FDF
@@ -42,11 +48,16 @@ h1, h2, h3{
     margin: 0;
 }
 
+h2 {
+    font-size: 3em;
+}
+
 .pre-title {
     margin-bottom: 2px;
     color: #515664;
     font-family: 'Helvetica Neue', 'HelveticaNeue', 'Helvetica', 'Arial', 'Lucida Grande', sans-serif;
     font-weight: 800;
+    font-size: 1.8em
 }
 
 .titles {
@@ -105,5 +116,16 @@ a {
     height: 337px;
 }
 
+#canvas-img-1 {
+    background-image: url('../img/build/canvas-spaceship.png')
+}
 
+#canvas-img-2 {
+    background-image: url('../img/build/canvas-map.png');
+    height: 350px
+}
+
+#canvas-img-3 {
+    background-image: url('../img/build/canvas-shelf-discovery.png');
+}
 
