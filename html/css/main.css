@@ -117,19 +117,6 @@ a {
     height: 337px;
 }
 
-#canvas-img-1 {
-    background-image: url('../img/build/canvas-spaceship.png')
-}
-
-#canvas-img-2 {
-    background-image: url('../img/build/canvas-map.png');
-    height: 350px
-}
-
-#canvas-img-3 {
-    background-image: url('../img/build/canvas-shelf-discovery.png');
-}
-
 #discovery-img-1 {
     background-image: url('../img/build/discovery-uncertainty-machine.png');
 }
