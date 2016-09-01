@@ -139,5 +139,12 @@ a {
 
 #discovery-img-2 {
     background-image: url('../img/build/discovery-lifecycle.png');
-    width
+}
+
+#delivery-img-1 {
+    background-image: url('../img/build/delivery-sketch-to-painting.png');
+}
+
+#delivery-img-2 {
+    background-image: url('../img/build/delivery-backlog-board.png');
 }
