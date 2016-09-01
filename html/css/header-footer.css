@@ -14,6 +14,32 @@
     padding: 0;
 }
 
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+
+footer .container{
+    background-color: white;
+}
+
+#inner-footer {
+    border-top: #949494 1px solid;
+    padding: 0
+}
+
+div.cb_footer_logo {
+    height: 40px;
+    margin: 5px 0;
+    width: 70px;
+    background: url('../img/cb_logo_footer.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: right;
+}
+
 /* Breakpoint for mobile navbar */
 @media (max-width: 767px) {
     .header .container{
@@ -28,3 +54,6 @@
         margin-right: 0
     }
 }
+
+
+
