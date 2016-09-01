@@ -3,7 +3,7 @@ body{
 }
 
 .section {
-    padding: 50px 0;
+    padding: 50px 0 65px 0;
 }
 
 #main {
@@ -13,8 +13,6 @@ body{
 .space-under {
     margin-bottom: 24px
 }
-
-
 
 /* Colours */
 .blue {
@@ -103,7 +101,6 @@ a {
 /* Images */
 .image {
     background-repeat: no-repeat;
-    height: 300px;
     background-size: contain;
 }
 
@@ -151,14 +148,6 @@ a {
 
 #spotlight-img-1 {
     background-image: url('../img/organise/spotlight-clarity.png');
-}
-
-#review-img-1 {
-    background-image: url('../img/organise/review-activity-vs-strategy.png');
-}
-
-#review-img-2 {
-    background-image: url('../img/organise/review-people-goals-process.png');
 }
 
 #organisation-img-1 {
