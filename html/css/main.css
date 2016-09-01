@@ -97,17 +97,3 @@ a {
 .quote p {
     font-style: italic;
 }
-
-/* Images */
-.image {
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.col-md-4 .image{
-    height: 200px
-}
-
-#spotlight-img-1 {
-    background-image: url('../img/organise/spotlight-clarity.png');
-}
