@@ -9,8 +9,22 @@
     height: 50px;
 }
 
-.header .container {
+#inner-header{
     border-bottom: #949494 1px solid;
     padding: 0;
 }
 
+/* Breakpoint for mobile navbar */
+@media (max-width: 767px) {
+    .header .container{
+        padding: 0
+    }
+
+    .navbar-brand {
+        padding-left: 0
+    }
+
+    .navbar-header button{
+        margin-right: 0
+    }
+}
