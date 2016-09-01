@@ -20,6 +20,10 @@
     border: none
 }
 
+.navbar-collapse {
+    background-color: white
+}
+
 /* Footer */
 
 footer {
