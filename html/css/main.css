@@ -10,6 +10,12 @@ body{
     padding-top: 50px
 }
 
+.space-under {
+    margin-bottom: 24px
+}
+
+
+
 /* Colours */
 .blue {
     color: #009FDF
@@ -42,21 +48,26 @@ h1, h2, h3{
     margin: 0;
 }
 
+h2 {
+    font-size: 3em;
+}
+
 .pre-title {
     margin-bottom: 2px;
     color: #515664;
     font-family: 'Helvetica Neue', 'HelveticaNeue', 'Helvetica', 'Arial', 'Lucida Grande', sans-serif;
     font-weight: 800;
+    font-size: 1.8em
 }
 
 .titles {
-    margin: 24px 0;
+    margin: 5em 0 3em 0;
 }
 
 /* Text */
 
 p {
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: #4c4c4c;
 }
 
@@ -96,6 +107,10 @@ a {
     background-size: contain;
 }
 
+.col-md-4 .image{
+    height: 200px
+}
+
 #home-image {
     background-image: url('../img/cb-design-people-transform.png')
 }
@@ -105,5 +120,55 @@ a {
     height: 337px;
 }
 
+#canvas-img-1 {
+    background-image: url('../img/build/canvas-spaceship.png')
+}
 
+#canvas-img-2 {
+    background-image: url('../img/build/canvas-map.png');
+    height: 350px
+}
 
+#canvas-img-3 {
+    background-image: url('../img/build/canvas-shelf-discovery.png');
+}
+
+#discovery-img-1 {
+    background-image: url('../img/build/discovery-uncertainty-machine.png');
+}
+
+#discovery-img-2 {
+    background-image: url('../img/build/discovery-lifecycle.png');
+}
+
+#delivery-img-1 {
+    background-image: url('../img/build/delivery-sketch-to-painting.png');
+}
+
+#delivery-img-2 {
+    background-image: url('../img/build/delivery-backlog-board.png');
+}
+
+#spotlight-img-1 {
+    background-image: url('../img/organise/spotlight-clarity.png');
+}
+
+#review-img-1 {
+    background-image: url('../img/organise/review-activity-vs-strategy.png');
+}
+
+#review-img-2 {
+    background-image: url('../img/organise/review-people-goals-process.png');
+}
+
+#organisation-img-1 {
+    background-image: url('../img/organise/transformation-continuous-improvement.png');
+}
+
+#shape-img-1 {
+    background-image: url('../img/organise/shape-gaps.png');
+}
+
+#shape-img-2 {
+    background-image: url('../img/organise/shape-team-alignment.png');
+}

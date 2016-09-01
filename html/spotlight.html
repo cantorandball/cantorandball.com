@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Cantor and Ball</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- Bootstrap -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Bevan" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/header-footer.css" >
+
+    <!-- Fullpage -->
+    <script type="text/javascript" src="js/iscroll.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" >
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#fullpage-whole').fullpage({
+                verticalCentered: false,
+                fixedElements: '.header, .footer',
+                scrollOverflow: true,
+                scrollBar: true
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="container" id="fullpage-whole" ng-app>
+        <nav class="navbar navbar-default header col-md-12">
+            <div class="container">
+                <div id="inner-header">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html#organise"><img src="img/cb_full_logo.png" alt="Cantor & Ball"/></a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#build">Build</a></li>
+                            <li><a href="#organise">Organise</a></li>
+                            <li><a href="#social-good">Sustainability</a></li>
+                            <li><a href="#inspiration">Inspiration</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div>
+            </div>
+        </nav>
+
+        <div class="section row" id="main">
+            <div class="titles col-md-12">
+                <h2 class="pre-title">Spotlight</h2>
+                <h2 class="pink">I've got a hunch...</h2>
+            </div>
+            <div class="col-md-12">
+                <p>Your spider-sense tells you that something’s not right, but you can’t quite pin down what it is. Maybe you’re too close to the problem. Maybe it’s new territory. In any case, you’re looking for some clarity around what you’ve got in place. Ultimately, you need light shed on the problem, so that you can see what to do about it.</p>
+            </div>
+            <div class="col-md-8">
+                <p>To pinpoint an issue, it must be exposed from different perspectives. The people involved, the processes in place, the desired outcomes.</p>
+                <p>At a Spotlight session, we spend a day with the relevant key stakeholders and teams. We look at what are you trying to achieve and how are you trying to achieve it. We look at who’s helping and what activities they’re doing. We clarify risks, issues, constraints, and how well the team outputs are aligned with the overarching business goals.</p>
+            </div>
+            <div class="col-md-4">
+                <div class="image" id="spotlight-img-1"></div>
+            </div>
+            <div class="col-md-12">
+                <p>Because we’re objective, we will help you see what we see. The outcome is insight and what, if any, improvements can be made.</p>
+                <p>Shine a spotlight on your issues…</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div id="inner-footer">
+                <div class="cb_footer_logo"></div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+</body>
+</html>
