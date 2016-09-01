@@ -105,7 +105,6 @@ a {
     background-repeat: no-repeat;
     height: 300px;
     background-size: contain;
-    margin: 1em auto
 }
 
 .col-md-4 .image{
@@ -153,3 +152,12 @@ a {
 #spotlight-img-1 {
     background-image: url('../img/organise/spotlight-clarity.png');
 }
+
+#review-img-1 {
+    background-image: url('../img/organise/review-activity-vs-strategy.png');
+}
+
+#review-img-2 {
+    background-image: url('../img/organise/review-people-goals-process.png');
+}
+
