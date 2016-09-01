@@ -8,12 +8,12 @@
     top: 0;
     z-index: 1;
     width: 100%;
-    height: 50px;
 }
 
 #inner-header{
     border-bottom: #949494 1px solid;
     padding: 0;
+    height: 55px
 }
 
 .navbar {
@@ -24,11 +24,15 @@
     background-color: white
 }
 
+.navbar-nav {
+    margin-top: 3px
+}
+
 /* Footer */
 
 footer {
   position: fixed;
-  bottom: 0;
+  bottom: 15px;
   width: 100%;
   height: 50px;
 }
@@ -38,8 +42,10 @@ footer .container{
 }
 
 #inner-footer {
-    border-top: #949494 1px solid;
-    padding: 0
+    height: 50px;
+    border-bottom: #949494 1px solid;
+    padding: 0;
+    margin-bottom: 15px;
 }
 
 div.cb_footer_logo {
