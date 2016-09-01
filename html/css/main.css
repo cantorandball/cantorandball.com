@@ -3,11 +3,11 @@ body{
 }
 
 .section {
-    margin-top: 72px
+    padding: 50px 0;
 }
 
 #main {
-    margin-top: 72px
+    padding-top: 50px
 }
 
 /* Colours */
@@ -50,7 +50,7 @@ h1, h2, h3{
 }
 
 .titles {
-    margin-bottom: 24px;
+    margin: 24px 0;
 }
 
 /* Text */
