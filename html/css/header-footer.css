@@ -10,10 +10,22 @@
     width: 100%;
 }
 
+.header .container, .footer .container{
+    max-width: 960px;
+    background-color: white;
+}
+
 #inner-header{
     border-bottom: #949494 1px solid;
     padding: 0;
-    height: 55px
+    height: 55px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#inner-footer {
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .navbar {
@@ -38,7 +50,6 @@ footer {
 }
 
 footer .container{
-    background-color: white;
 }
 
 #inner-footer {

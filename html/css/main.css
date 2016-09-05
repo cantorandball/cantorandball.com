@@ -112,12 +112,13 @@ a {
 /* Inspiration */
 .face-bg {
     background: url('../img/hatches.png');
-}
-
-.text.face-bg {
     margin-bottom: 0px;
     margin-top: 0px;
+}
+
+.face-text {
     padding-top: 24px;
+    padding-bottom: 15px
 }
 
 .face {
