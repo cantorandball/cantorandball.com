@@ -12,11 +12,16 @@ body{
 
 #first-row {
     margin-top: 5em;
-    margin-bottom: 5em;
+    margin-bottom: 3em;
 }
 
 .first-blurb {
-    font-size: 1.5em
+    font-size: 1.5em;
+    margin-bottom: 2em;
+}
+
+.first-blurb .pre-title {
+    margin-bottom: 0.6em
 }
 
 .space-under {
