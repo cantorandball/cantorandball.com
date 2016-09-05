@@ -136,3 +136,29 @@ a {
     background-image: url('../img/cantor.png');
     margin-right: -15px
 }
+
+/* Clients */
+.client-logo {
+    margin-top: 15px;
+}
+
+#fjord {
+    padding-top: 9%
+}
+
+#gds {
+    padding-top: 7.9%;
+}
+
+#future {
+    padding-top: 6%
+}
+
+#quietus {
+    padding-top: 6.2%
+}
+
+#telegraph {
+    padding-top: 6.8%;
+    padding-bottom: 6.8%
+}
