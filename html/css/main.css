@@ -10,6 +10,15 @@ body{
     padding-top: 50px
 }
 
+#first-row {
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.first-blurb {
+    font-size: 1.5em
+}
+
 .space-under {
     margin-bottom: 24px
 }
@@ -46,6 +55,30 @@ body{
 
 .purple {
     color: purple;
+}
+
+#nav-build:hover {
+   color: #009FDF
+}
+
+#nav-organise:hover {
+    color: #009FDF
+}
+
+#nav-sustainability:hover {
+    color: #00843D
+}
+
+#nav-inspiration:hover {
+    color: #BA0C2F
+}
+
+#nav-clients:hover {
+    color: #D40F7D
+}
+
+#nav-contact:hover {
+    color: purple
 }
 
 /* Titles */
@@ -100,13 +133,19 @@ a {
 
 .quote {
     margin-top: 1em;
-    font-size: 2em;
+    font-size: 1em;
     font-family: 'Cormorant Garamond', serif;
     text-align: justify;
+    line-height: 1.4em;
 }
 
-.quote .name{
+.quote .name {
     font-weight: 800
+}
+
+.quotemark {
+    font-family: "Georgia", serif;
+    font-size: 2em;
 }
 
 /* Inspiration */
@@ -138,6 +177,10 @@ a {
     margin-right: -15px
 }
 
+.inspiration-blurb {
+    font-size: 0.85em;
+}
+
 /* Clients */
 .client-logo {
     margin-top: 15px;
@@ -160,6 +203,6 @@ a {
 }
 
 #telegraph {
-    padding-top: 6.8%;
+    padding-top: 5%;
     padding-bottom: 6.8%
 }

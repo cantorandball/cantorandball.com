@@ -61,12 +61,12 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#build">Build</a></li>
-                            <li><a href="#organise">Organise</a></li>
-                            <li><a href="#social-good">Sustainability</a></li>
-                            <li><a href="#inspiration">Inspiration</a></li>
-                            <li><a href="#clients">Clients</a></li>
-                            <li><a href="#contact">Contact</a></li>
+                            <li><a id="nav-build" href="#build">Build</a></li>
+                            <li><a id="nav-organise" href="#organise">Organise</a></li>
+                            <li><a id="nav-sustainability" href="#social-good">Sustainability</a></li>
+                            <li><a id="nav-inspiration" href="#inspiration">Inspiration</a></li>
+                            <li><a id="nav-clients" href="#clients">Clients</a></li>
+                            <li><a id="nav-contact" href="#contact">Contact</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div>
@@ -74,20 +74,22 @@
         </nav>
 
         <div class="section row" id="main">
-            <div class="titles col-xs-12">
+            <div class="row" id="first-row">
+                <div class="col-xs-9">
+                    <p class="bold first-blurb">Technology can be transformative</p>
+                    <p class="first-blurb">We help people review and organise themselves.<br/>
+                    We help  discover, build and deliver great things.<br/>
+                    We use our profit to grow sustainable businesses that make the world a better place.</p>
+                    <p>It all starts with a conversation, so <a href="#contact">let’s talk…</a></p>
+                </div>
             </div>
-            <div class="col-xs-8">
-                <p class="bold">Technology can be transformative</p>
-                <p>We help people review and organise themselves.<br/>
-                We help  discover, build and deliver great things.<br/>
-                We use our profit to grow sustainable businesses that make the world a better place.</p>
-                <p>It starts with a conversation. Let’s talk…</p>
-            </div>
-            <img src="img/cb-design-people-transform.png" class="col-xs-4 space-under"/>
-            <div class="quote col-xs-12">
-                <p>"Cantor & Ball is one of a small number of UK SME's who have been central to the growth of, and delivery behind the Government Digital Service.</p>
-                <p>Cantor & Ball has helped us answer challenges facing new organisations in the agile digital space, including scaling agile organisations, defining product management practices and assisting multi-functional development teams."</p>
-                <p class="name">Mike Bracken, GDS<p>
+            <div class="row">
+                <img src="img/cb-design-people-transform.png" class="col-xs-4 space-under"/>
+                <div class="quote col-xs-8">
+                    <p><span class="quotemark">"</span>Cantor & Ball is one of a small number of UK SME's who have been central to the growth of, and delivery behind the Government Digital Service.</p>
+                    <p>Cantor & Ball has helped us answer challenges facing new organisations in the agile digital space, including scaling agile organisations, defining product management practices and assisting multi-functional development teams.<span class="quotemark">"</span></p>
+                    <p class="name">Mike Bracken, Government Digital Service<p>
+                </div>
             </div>
         </div>
 
@@ -129,27 +131,31 @@
         </div>
 
         <div class="section row" id="inspiration">
-            <div class="titles col-sm-12">
+            <div class="titles col-sm-9">
                 <h2 class="pre-title">Inspiration.</h2>
                 <h2 class="burgundy">Open Minds, Passion, Craftsmanship & Creativity</h2>
             </div>
             <div class="row">
-                <div class="text col-sm-10 face-text face-bg">
+                <div class="text col-sm-10 face-text">
                    <p>We are inspired by people who have made the world a better place, regardless of their own limitations. Of the many names on this ever growing list, we keep two names close to our hearts.</p>
                 </div>
             </div>
             <div class="row">
                 <div class="text col-sm-5 face-bg">
                      <div id="hugo" class="face">
-                         <p class="bold">Hugo Ball</p>
-                         <p>As the author of the first Dada manifesto, Hugo Ball’s influence on us is immense. We value thinking, irreverence, the ridiculous and everyday Dada. Particularly, we strive to never confuse man with machine — nearly a hundred years on from Hugo’s observations on World War 1...</p>
-                         <p>‘The war is founded on a glaring mistake, man has been confused with machine.’</p>
+                         <p class="bold burgundy">Hugo Ball</p>
+                         <div class="inspiration-blurb">
+                             <p>As the author of the first Dada manifesto, Hugo Ball’s influence on us is immense. We value thinking, irreverence, the ridiculous and everyday Dada. Particularly, we strive to never confuse man with machine — nearly a hundred years on from Hugo’s observations on World War 1...</p>
+                             <p>‘The war is founded on a glaring mistake, man has been confused with machine.’</p>
+                         </div>
                      </div>
                 </div>
                 <div class="text col-sm-5 face-bg">
                     <div id="georg" class="face">
-                        <p class="bold">Georg Cantor</p>
-                        <p>Arguably the inventor of modern mathematics, with his definition of set theory, transfinite arithmetic and much else, we are inspired by the logic and philosophy in Cantor’s approach to problem solving. We believe it's important to think past innate beliefs with a problem, because despite the paradoxes often uncovered, the best solution is not always the obvious one.</p>
+                        <p class="bold burgundy">Georg Cantor</p>
+                        <div class="inspiration-blurb">
+                            <p>Arguably the inventor of modern mathematics, with his definition of set theory, transfinite arithmetic and much else, we are inspired by the logic and philosophy in Cantor’s approach to problem solving. We believe it's important to think past innate beliefs with a problem, because despite the paradoxes often uncovered, the best solution is not always the obvious one.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -157,23 +163,29 @@
 
         <div class="section row" id="clients">
             <div class="titles col-xs-12">
-                <h2 class="green">Clients</h2>
+                <h2 class="pre-title">Our Clients.</h2>
+                <h2 class="pink">Who we've helped...</h2>
             </div>
             <div class="row">
-                <img id="gds" src="img/clients/gds.png" class="col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2 client-logo"/>
-                <img id="synergy" src="img/clients/synergy.png" class="col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2 client-logo"/>
-                <img id="fjord" src="img/clients/fjord.png" class="col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2 client-logo"/>
+                <div class="text col-sm-5">
+                    <p>We've worked with all sorts of organisations, some of them are listed below:</p>
+                </div>
+            </div>
+            <div class="row">
+                <img id="gds" src="img/clients/gds.png" class="col-sm-3 col-sm-offset-0 col-xs-8 col-xs-offset-2 client-logo"/>
+                <img id="synergy" src="img/clients/synergy.png" class="col-sm-3 col-sm-offset-0 col-xs-8 col-xs-offset-2 client-logo"/>
+                <img id="fjord" src="img/clients/fjord.png" class="col-sm-3 col-sm-offset-0 col-xs-8 col-xs-offset-2 client-logo"/>
             </div>
             <div class="clearfix hidden-sm-up"></div>
             <div class="row">
-                <img id="quietus" src="img/clients/quietus.jpg" class="col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2 client-logo"/>
-                <img id="future" src="img/clients/future.jpg" class="col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2 client-logo"/>
-                <img id="participle" src="img/clients/participle.gif" class="col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2 client-logo"/>
+                <img id="quietus" src="img/clients/quietus.jpg" class="col-sm-3 col-sm-offset-0 col-xs-8 col-xs-offset-2 client-logo"/>
+                <img id="future" src="img/clients/future.jpg" class="col-sm-3 col-sm-offset-0 col-xs-8 col-xs-offset-2 client-logo"/>
+                <img id="participle" src="img/clients/participle.gif" class="col-sm-3 col-sm-offset-0 col-xs-8 col-xs-offset-2 client-logo"/>
             </div>
             <div class="clearfix hidden-sm-up"></div>
             <div class="row">
-                <img id="telegraph" src="img/clients/telegraph.png" class="col-sm-8 col-sm-offset-0 col-xs-8 col-xs-offset-2 client-logo"/>
-                <img id="goodgym" src="img/clients/goodgym.png" class="col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2 client-logo"/>
+                <img id="telegraph" src="img/clients/telegraph.png" class="col-sm-6 col-sm-offset-0 col-xs-8 col-xs-offset-2 client-logo"/>
+                <img id="goodgym" src="img/clients/goodgym.png" class="col-sm-3 col-sm-offset-0 col-xs-8 col-xs-offset-2 client-logo"/>
             </div>
         </div>
 
