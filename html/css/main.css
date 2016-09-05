@@ -14,6 +14,11 @@ body{
     margin-bottom: 24px
 }
 
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
 /* Colours */
 .blue {
     color: #009FDF
@@ -96,4 +101,32 @@ a {
 
 .quote p {
     font-style: italic;
+}
+
+/* Inspiration */
+.face-bg {
+    background: url('../img/hatches.png');
+}
+
+.text.face-bg {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 24px;
+}
+
+.face {
+    padding-top: 15px;
+    height: 313px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#hugo {
+    background-image: url('../img/ball.png');
+}
+
+#georg {
+    background-position: center right;
+    background-image: url('../img/cantor.png');
+    margin-right: -15px
 }
