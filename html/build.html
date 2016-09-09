@@ -27,45 +27,145 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-default header col-xs-12">
-        <div class="container">
-            <div id="inner-header">
+    <div class="header">
+        <nav id="primary-nav" class="navbar navbar-default col-xs-12">
+            <div class="container">
+                <div class="inner-header">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html#main"><img src="img/cb_full_logo.png" alt="Cantor & Ball"/></a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a id="nav-services" href="index.html#services">Services</a></li>
+                            <li><a id="nav-sustainability" href="index.html#social-good">Sustainability</a></li>
+                            <li><a id="nav-inspiration" href="index.html#inspiration">Inspiration</a></li>
+                            <li><a id="nav-clients" href="index.html#clients">Clients</a></li>
+                            <li><a id="nav-contact" href="index.html#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <nav id="sub-nav" class="navbar navbar-default col-xs-12">
+            <div class="container">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html#main"><img src="img/cb_full_logo.png" alt="Cantor & Ball"/></a>
+                    <ul class="nav navbar-nav navbar-left">
+                        <li><a id="current-page" class="page-link" href="build.html#main">Build</a></li>
+                        <li><a class="page-link" href="organise.html#main">Organise</a></li>
+                    </ul>
                 </div>
 
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="collapse navbar-collapse" id="navbar-collapse-2">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a id="nav-services" href="#services">Services</a></li>
-                        <li><a id="nav-sustainability" href="#social-good">Sustainability</a></li>
-                        <li><a id="nav-inspiration" href="#inspiration">Inspiration</a></li>
-                        <li><a id="nav-clients" href="#clients">Clients</a></li>
-                        <li><a id="nav-contact" href="#contact">Contact</a></li>
+                        <li><a href="#canvas">Canvas</a></li>
+                        <li><a href="#discovery">Discovery</a></li>
+                        <li><a href="#delivery">Delivery</a></li>
                     </ul>
                 </div>
             </div>
-        </div>
-    </nav>
-    <div class="container" id="fullpage-whole" ng-app>
+        </nav>
+    </div>
 
-        <div class="section row" id="build">
+    <div class="container with-sub" id="fullpage-whole" ng-app>
+        <div id="main" class="section row ">
             <div class="titles col-xs-12">
                 <h2 class="pre-title">Pre title.</h2>
                 <h2 class="blue">Build...</h2>
             </div>
             <div class="text col-xs-12">
-                 <p>Do you have a tech project that you need to <a href="delivery.html">get out the door?</a> do you need to work out the nuts and bolts of your idea?</p>
+                 <p>Do you have a tech project that you need to <a href="#delivery">get out the door?</a> do you need to work out the nuts and bolts of your idea?</p>
                  <p>we help with all stages of software design and development. from generating, researching and validating ideas, through implementing the product or service, and launching it to your users. we start with wherever you’re at and we’re focused on ensuring that your money isn’t spent building the wrong thing.</p>
-                 <p>we’re ready to help you <a href="discovery.html">discover</a> the right thing to build or get a team together to deliver it. but, if you’re not sure exactly where you are or what you need, then our one day <a href="canvas.html">canvas</a> session will help paint a clear picture.</p>
+                 <p>we’re ready to help you <a href="#discovery">discover</a> the right thing to build or get a team together to deliver it. but, if you’re not sure exactly where you are or what you need, then our one day <a href="#canvas">canvas</a> session will help paint a clear picture.</p>
             </div>
             <img src="img/build/discovery-lifecycle.png" class="col-xs-4 col-xs-offset-4"/>
         </div>
+
+        <div class="section row" id="canvas">
+            <div class="titles col-xs-12">
+                <h2 class="pre-title">Canvas</h2>
+                <h2 class="blue">Is this worth doing? (What's next?)</h2>
+            </div>
+            <div class="col-xs-12">
+                <p>So, you’ve had a crackerjack of an idea. Maybe you’ve even got a team together, and you’ve worked through some of the possibilities, and there’s a bit of momentum.</p>
+            </div>
+            <div class="col-xs-8">
+                <p>Uncertainty — because there’s plenty of gaps and question marks. Sooner or later you’re going to have to write a business plan with some real numbers. Maybe the Board will get it — but what if they don’t? Are you even sure that you want to invest any further in time and people  — and how strong is this idea anyway?</p>
+                <p>Ideas for new technology are everywhere. Whether it’s a new mobile app, connected device, web service, api or super spaceship, it’s important to evaluate them carefully and only invest in the next stage once you have the certainty you require to make that business decision.</p>
+                <p>It’s easy to waste time and money on ill-formed ideas. And that’s where the Canvas comes in.</p>
+            </div>
+            <img src="img/build/canvas-spaceship.png" class="col-xs-4"/>
+            <div class="col-xs-12 space-under">
+                <p>The Canvas is a single day workshop with the core of your team to objectively assess what needs to happen to take your idea to the next level, and ultimately help you decide whether or not you should take it to the next level.</p>
+            </div>
+            <img src="img/build/canvas-map.png" class="col-xs-8 space-under"/>
+            <div class="col-xs-4">
+                <p>The Canvas is a 1 day workshop which will result in sensible next steps for your tech idea, the aim of which is to provide certainty around taking your idea into discovery or not.</p>
+            </div>
+            <div class="col-xs-8">
+                <p>There’s a fine line between genius and insanity. Use the Canvas to determine whether your idea is genius…</p>
+            </div>
+            <img src="img/build/canvas-shelf-discovery.png" class="col-xs-4"/>
+        </div>
+
+        <div class="section row" id="discovery">
+            <div class="titles col-xs-12">
+                <h2 class="pre-title">Discovery</h2>
+                <h2 class="blue">How we build great stuff (method in the madness)</h2>
+            </div>
+            <div class="col-xs-12">
+                <p>If only there was a machine that would take uncertainty and turn it into certainty. Then, decisions would be relatively straightforward, right?</p>
+            </div>
+            <div class="col-xs-8">
+                <p>How much certainty do you need to be able to discover a business case? What assumptions need to be tested and what might you need to do in order to test these assumptions?</p>
+                <p>What sort of team will this need? Two people for two weeks? Six people for two days? Or three people for a month? Maybe you need a researcher, a product person, a service designer , a developer— maybe even a psychologist. Ultimately, you need a team appropriate to the uncertainty.</p>
+            </div>
+            <img src="img/build/discovery-uncertainty-machine.png" class="col-xs-4"/>
+            <img src="img/build/discovery-lifecycle.png" class="col-xs-6 col-xs-offset-1 space-under"/>
+            <div class="col-xs-4 col-xs-offset-1">
+                <p>The purpose of Discovery is to refine an idea down to a solution that can be delivered, and determining whether there is a sustainable business model for it that’s worth pursuing.<p>
+                <p>At Cantor & Ball, we’re centred in Tech, focused by systems thinking, and rooted in facts over opinion. Our eye for design helps craft frictionless customer experiences. We’re multi-lingual — we talk tech to business people and we talk business to tech people.</p>
+            </div>
+            <div class="col-xs-12">
+                <p>We can work with you to quantify risks around the idea and provide enough certainty around the problem space. If it does make sense to proceed, we’ll help you define what the right thing is to build and the best way to deliver it.</p>
+                <p>Discovery is fluid — it’s a war-room situation. Collaboratively, we’re defining a vision and strategy and deciding on what the jump-off points are. And it starts with a conversation…</p>
+            </div>
+            <div class="quote col-xs-12">
+                <p>"The team at Cantor & Ball quickly developed an understanding of our business strategy, provided technical expertise to outline an architecture and established an agile development management structure. I particularly valued the way each individual personally committed to the project and came up with creative solutions to the challenges of an early stage internet of things development project."</p>
+                <p>Nat Billington, Founder, <a href="http://www.synergy-energy.co/">Synergy Energy Ltd.</a></p>
+            </div>
+        </div>
+
+        <div class="section row" id="delivery">
+            <div class="titles col-xs-12">
+                <h2 class="pre-title">Delivery</h2>
+                <h2 class="blue">Getting it out the door</h2>
+            </div>
+            <div class="col-xs-12">
+                <p>So you know what you need to build. There‘s a clear vision. Your goals and milestones are determined and the constraints are known. But it’s tricky — because there are a bunch of things that work against the successful delivery of a software product or service.</p>
+            </div>
+            <div class="col-xs-8">
+                <p>Whether the requirements aren’t clear, success metrics haven’t been properly identified or simply the idea isn’t ready to be built. Maybe there’s not enough time or money to get it built. Then there’s the bureaucracy: biased estimations, the trade-off between great UX and security, third parties, dependencies, risks, assumptions…</p>
+            </div>
+            <img src="img/build/delivery-sketch-to-painting.png" class="col-xs-4"/>
+            <div class="col-xs-12">
+                <p>We’ve experienced these issues (and many more) before, and they’re part of the landscape.</p>
+                <p>We prefer openness, sharing, transparency and continuous improvement. Pragmatic at heart, we favour a lean & agile approach, however maintain a healthy scepticism towards methodologies, programming languages, tools and new technologies.</p>
+            </div>
+            <img src="img/build/delivery-backlog-board.png" class="col-xs-6 col-xs-offset-3 space-under"/>
+            <div class="col-xs-12">
+                <p>Instead, we focus on the best solution to the problem at hand. We believe in the power of small, nimble, non-hierarchical, diverse, cross-functional teams to creatively solve problems and happily collaborate with other people or organisations in any configuration.</p>
+                <p>It starts with a conversation...</p>
+            </div>
+        </div>
+    </div>
 
     </div>
     <footer class="footer">
