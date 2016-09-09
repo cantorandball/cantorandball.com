@@ -27,35 +27,64 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-default header col-xs-12">
-        <div class="container">
-            <div id="inner-header">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html#main"><img src="img/cb_full_logo.png" alt="Cantor & Ball"/></a>
-                </div>
+    <div class="header">
+        <nav id="primary-nav" class="navbar navbar-default col-xs-12">
+            <div class="container">
+                <div class="inner-header">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html#main"><img src="img/cb_full_logo.png" alt="Cantor & Ball"/></a>
+                    </div>
 
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a id="nav-services" href="#services">Services</a></li>
-                        <li><a id="nav-sustainability" href="#social-good">Sustainability</a></li>
-                        <li><a id="nav-inspiration" href="#inspiration">Inspiration</a></li>
-                        <li><a id="nav-clients" href="#clients">Clients</a></li>
-                        <li><a id="nav-contact" href="#contact">Contact</a></li>
-                    </ul>
-                </div><!-- /.navbar-collapse -->
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a id="nav-services" href="index.html#services">Services</a></li>
+                            <li><a id="nav-sustainability" href="index.html#social-good">Sustainability</a></li>
+                            <li><a id="nav-inspiration" href="index.html#inspiration">Inspiration</a></li>
+                            <li><a id="nav-clients" href="index.html#clients">Clients</a></li>
+                            <li><a id="nav-contact" href="index.html#contact">Contact</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+
+        <nav id="sub-nav" class="navbar navbar-default col-xs-12">
+            <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <ul class="nav navbar-nav navbar-left">
+                            <li><a class="page-link" href="build.html">Build</a></li>
+                            <li><a id="current-page" class="page-link" href="organise.html#main">Organise</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="navbar-collapse-2">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a id="nav-spotlight" href="#spotlight">Spotlight</a></li>
+                            <li><a id="nav-review" href="#review">Review</a></li>
+                            <li><a id="nav-shape" href="#shape">Shape</a></li>
+                            <li><a id="nav-organise" href="#organise">Organise</a></li>
+                        </ul>
+                    </div>
+                </div>
+        </nav>
+    </div>
+
     <div class="container" id="fullpage-whole" ng-app>
 
-        <div class="section row" id="organise">
+        <div class="section row" id="main">
             <div class="titles col-xs-12">
                 <h2 class="pre-title">Pre title.</h2>
                 <h2 class="blue">Organise...</h2>
@@ -71,7 +100,7 @@
         <div class="section row" id="spotlight">
             <div class="titles col-xs-12">
                 <h2 class="pre-title">Spotlight</h2>
-                <h2 class="pink">I've got a hunch...</h2>
+                <h2 class="blue">I've got a hunch...</h2>
             </div>
             <div class="col-xs-12">
                 <p>Your spider-sense tells you that something’s not right, but you can’t quite pin down what it is. Maybe you’re too close to the problem. Maybe it’s new territory. In any case, you’re looking for some clarity around what you’ve got in place. Ultimately, you need light shed on the problem, so that you can see what to do about it.</p>
@@ -90,7 +119,7 @@
         <div class="section row" id="review">
             <div class="titles col-xs-12">
                 <h2 class="pre-title">Review</h2>
-                <h2 class="pink">You are here...</h2>
+                <h2 class="blue">You are here...</h2>
             </div>
             <div class="col-xs-12">
                 <p>To go to where you’re trying to get to, you first need to see where you are.</p>
@@ -113,7 +142,7 @@
         <div class="section row" id="shape">
             <div class="titles col-xs-12">
                 <h2 class="pre-title">Shape</h2>
-                <h2 class="pink">Do you know what you've got? (And what you're missing?)</h2>
+                <h2 class="blue">Do you know what you've got? (And what you're missing?)</h2>
             </div>
             <div class="col-xs-12">
                 <p>What’s the shape of your team? Do you know what they’re capable of? Do they know what they’re capable of?</p>
@@ -135,7 +164,7 @@
         <div class="section row" id="organise">
             <div class="titles col-xs-12">
                 <h2 class="pre-title">Organise</h2>
-                <h2 class="pink">Where do we go from here?</h2>
+                <h2 class="blue">Where do we go from here?</h2>
             </div>
             <div class="col-xs-12">
                 <p>So your business needs to adapt. But when it comes to organisational transformation, it can be hard to see the wood for the trees. It’s folly to think that the perfect organisational setup exists. It’s more about making the wisest trade-offs.</p>
