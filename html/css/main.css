@@ -42,24 +42,48 @@ body{
     color: #009FDF
 }
 
+.blue-bg{
+    background-color: #009FDF;
+}
+
 .orange {
     color: #ED8B00
+}
+
+.orange-bg {
+    background-color: #ED8B00
 }
 
 .pink {
     color: #D40F7D
 }
 
+.pink-bg {
+    background-color: #D40F7D
+}
+
 .green {
     color: #00843D
+}
+
+.green-bg {
+    background-color: #00843D
 }
 
 .burgundy {
     color: #BA0C2F
 }
 
+.burgundy-bg {
+    background-color: #BA0C2F
+}
+
 .purple {
     color: purple;
+}
+
+.purple-bg {
+    background-color: purple;
 }
 
 #nav-build:hover {
@@ -152,7 +176,24 @@ a {
     font-size: 2em;
 }
 
+/* Services */
+
+.service-box {
+
+    padding: 15px 15px 150px 15px;
+}
+
+.service-box h3{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 3em
+}
+
+.service-box p, .service-box {
+    color: white;
+}
+
 /* Inspiration */
+
 .face-bg {
     background: url('../img/hatches.png');
     margin-bottom: 0px;
