@@ -33,7 +33,6 @@
     border: none
 }
 
-
 .navbar-nav {
     margin-top: 3px
 }
@@ -59,7 +58,7 @@
 }
 
 #primary-nav{
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 /* Subnav */
@@ -79,10 +78,10 @@
 }
 
 #sub-nav.navbar-default .navbar-nav>li>a {
-    color: white;
+    color: #009FDF;
     font-size: 0.9em;
-    padding-top: 0px;
-    padding-bottom: 2px;
+    padding-top: 0;
+    padding-bottom: 6px;
 }
 
 #sub-nav.navbar-default .navbar-nav>li>a#current-page {
@@ -90,12 +89,6 @@
     font-size: 1em;
     margin-top: -1px;
 }
-
-#navbar-collapse-2 {
-    background-color: rgba(0,159,223, 0.5);
-}
-
-
 
 /* Footer */
 

@@ -20,13 +20,17 @@ body{
 }
 
 .first-blurb {
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin-bottom: 2em;
 }
+
+
 
 .first-blurb .pre-title {
     margin-bottom: 0.6em
 }
+
+
 
 .space-under {
     margin-bottom: 24px
@@ -90,12 +94,8 @@ body{
     background-color: purple;
 }
 
-#nav-build:hover {
+#nav-services:hover {
    color: #009FDF
-}
-
-#nav-organise:hover {
-    color: #009FDF
 }
 
 #nav-sustainability:hover {
@@ -122,7 +122,7 @@ h1, h2, h3{
 }
 
 h2 {
-    font-size: 3em;
+    font-size: 27pt;
 }
 
 .pre-title {
@@ -140,7 +140,7 @@ h2 {
 /* Text */
 
 p {
-    font-size: 1.1em;
+    font-size: 1em;
     color: #4c4c4c;
 }
 
@@ -183,7 +183,6 @@ a {
 /* Services */
 
 .service-box {
-
     padding: 15px 15px 150px 15px;
 }
 
@@ -192,8 +191,12 @@ a {
     font-size: 3em
 }
 
-.service-box p, .service-box {
-    color: white;
+.links {
+    padding-left: 20px
+}
+
+.service-text{
+    height: 8em
 }
 
 /* Inspiration */
@@ -231,6 +234,7 @@ a {
 }
 
 /* Clients */
+
 .client-logo {
     margin-top: 15px;
 }
