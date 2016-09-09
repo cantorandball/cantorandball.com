@@ -95,6 +95,8 @@
     background-color: rgba(0,159,223, 0.5);
 }
 
+
+
 /* Footer */
 
 footer {
@@ -133,6 +135,15 @@ div.cb_footer_logo {
 
     .navbar-header button{
         margin-right: 0
+    }
+
+    #sub-nav{
+        display: none
+    }
+
+    .navbar-default .navbar-collapse {
+        border-color: #949494;
+        background: white;
     }
 }
 
