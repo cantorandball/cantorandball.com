@@ -1,0 +1,35 @@
+{
+  "name": "cantorandball.com",
+  "version": "1.0.0",
+  "description": "Cantor & Ball website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cantorandball/cantorandball.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cantorandball/cantorandball.com/issues"
+  },
+  "homepage": "https://github.com/cantorandball/cantorandball.com#readme",
+  "devDependencies": {
+    "assemble": "^0.17.1",
+    "bootstrap": "^3.3.7",
+    "browser-sync": "^2.16.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-extname": "^0.2.2",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-html-replace": "^1.6.1",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-rev-all": "^0.8.24",
+    "gulp-shell": "^0.5.2",
+    "gulp-size": "^2.1.0",
+    "run-sequence": "^1.2.2"
+  }
+}
