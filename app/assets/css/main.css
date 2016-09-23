@@ -296,16 +296,26 @@ a {
 
 .section-copy p {
     max-width: 80%;
-    padding-right: 2rem;
 }
 
 .copy-image {
     width: 20%;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
 }
 
 @media (max-width: 767px) {
     [data-current-page=build] .section,
     [data-current-page=organise] .section {
         padding-top: 160px;
+    }
+
+    .section-copy p {
+        max-width: 100%;
+        padding-right: 0;
+    }
+
+    .copy-image {
+        width: 30%;
     }
 }
