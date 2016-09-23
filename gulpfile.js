@@ -62,7 +62,7 @@ gulp.task('images', function() {
 gulp.task('load', function(cb) {
     app.layouts(paths.html + '/layouts/*.hbs');
     app.pages(paths.html  + '/*.hbs');
-    app.partials(paths.html + '/partials/*.hbs');
+    app.partials(paths.html + '/partials/**/*.hbs');
     app.option('layout', 'default.hbs');
     cb();
 });
