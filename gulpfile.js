@@ -24,6 +24,7 @@ var paths = {
     files: ['./app/CNAME'],
     html:  ['./app/views'],
     img:   ['./app/assets/img/**/*'],
+    js:    ['./node_modules/bootstrap/dist/js/bootstrap.min.js'],
     css:   [
         './node_modules/bootstrap/dist/css/bootstrap.min.css',
         './app/assets/css/**/*.css'
@@ -46,7 +47,7 @@ gulp.task('clean', function() {
 });
 
 gulp.task('compile', ['clean'], function() {
-    runSequence(['files', 'html', 'images', 'stylesheets']);
+    runSequence(['files', 'html', 'images', 'javascripts', 'stylesheets']);
 });
 
 gulp.task('images', function() {
@@ -64,6 +65,11 @@ gulp.task('load', function(cb) {
     app.partials(paths.html + '/partials/*.hbs');
     app.option('layout', 'default.hbs');
     cb();
+});
+
+gulp.task('javascripts', function() {
+    return gulp.src(paths.js)
+    .pipe(gulp.dest('./dist/js'));
 });
 
 gulp.task('stylesheets', function() {
@@ -113,7 +119,7 @@ gulp.task('dev', function() {
 });
 
 gulp.task('build', ['clean'], function() {
-    runSequence(['files', 'html', 'images', 'stylesheets'], 'rev');
+    runSequence(['files', 'html', 'images', 'javascripts', 'stylesheets'], 'rev');
 });
 
 gulp.task('deploy', function() {
