@@ -1,5 +1,6 @@
 .DS_Store
 ._.DS_Store
 .idea/
+.publish
 dist/
 node_modules/
