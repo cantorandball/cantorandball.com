@@ -1,9 +1,12 @@
 # cantorandball.com
-website refresh
+
+Website refresh.
 
 ## Development
 
 We’re using gulpjs for the build pipeline.
+
+**The following commands are run from inside the project directory**.
 
 To get started:
 
