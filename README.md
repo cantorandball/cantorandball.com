@@ -6,7 +6,7 @@ Website refresh.
 
 We’re using gulpjs for the build pipeline.
 
-**The following commands are run from inside the project directory**.
+**The following commands are run from inside the project directory. You’ll need nodejs installed.**.
 
 To get started:
 
