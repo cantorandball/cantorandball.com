@@ -6,10 +6,6 @@ body{
     padding: 50px 0 65px 0;
 }
 
-#main {
-    padding-top: 50px
-}
-
 .with-sub .section, .with-sub #main {
     padding-top: 75px
 }
@@ -258,4 +254,11 @@ a {
 #telegraph {
     padding-top: 5%;
     padding-bottom: 6.8%
+}
+
+@media (max-width: 767px) {
+    [data-current-page=build] .section,
+    [data-current-page=organise] .section {
+        padding-top: 160px;
+    }
 }
