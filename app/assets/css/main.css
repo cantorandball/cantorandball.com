@@ -1,5 +1,12 @@
-body{
+body {
    font-family: 'Helvetica Neue', 'HelveticaNeue', 'Helvetica', 'Arial', 'Lucida Grande', sans-serif;
+   font-size: 16px;
+   line-height: 1.3;
+}
+
+p {
+    line-height: 1.4;
+    margin-bottom: 1em;
 }
 
 .section {
@@ -20,21 +27,12 @@ body{
     margin-bottom: 2em;
 }
 
-
-
 .first-blurb .pre-title {
     margin-bottom: 0.6em
 }
 
-
-
 .space-under {
     margin-bottom: 24px
-}
-
-.row {
-    margin-left: 0px;
-    margin-right: 0px;
 }
 
 #fullpage-whole {
@@ -123,7 +121,7 @@ h2 {
 }
 
 .pre-title {
-    margin-bottom: 2px;
+    margin-bottom: .4em;
     color: #515664;
     font-family: 'Helvetica Neue', 'HelveticaNeue', 'Helvetica', 'Arial', 'Lucida Grande', sans-serif;
     font-weight: 800;
@@ -162,10 +160,23 @@ a {
 }
 
 .quote {
+    position: relative;
+    border: none;
     font-size: 1em;
     font-family: 'Cormorant Garamond', serif;
     text-align: justify;
-    line-height: 1em;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+.quote::before {
+    position: absolute;
+    top: 15px;
+    left: -15px;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
 }
 
 .quote .name {
@@ -179,30 +190,32 @@ a {
 
 /* Services */
 
-#service-boxes {
-    margin-left: 15px
-}
-
 .service-box {
-    padding: 15px 15px 5px 15px;
-    background-color: #f3f3f3;
+    padding: 15px 0;
     margin-bottom: 30px;
-    max-width: 293px;
 }
 
-.service-box h3{
+.service-box h3 {
     font-family: 'Cormorant Garamond', serif;
     font-size: 3em
+}
+
+.service-box a {
+    text-decoration: none;
+}
+
+.read-more {
+    color: #009FDF;
+}
+
+.service-box a:hover .read-more {
+    text-decoration: underline;
 }
 
 .links {
     padding-left: 20px;
     height: 3em;
     font-size: 0.85em;
-}
-
-.service-text{
-    height: 6em
 }
 
 #services .quote {
@@ -254,6 +267,40 @@ a {
 #telegraph {
     padding-top: 5%;
     padding-bottom: 6.8%
+}
+
+
+.build-nav {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.build-nav ul {
+    margin-bottom: 2rem;
+}
+
+.build-nav li {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.build-nav li::after {
+    content: '·';
+}
+
+.build-nav li:last-child::after {
+    content: '';
+}
+
+.section-copy p {
+    max-width: 80%;
+    padding-right: 2rem;
+}
+
+.copy-image {
+    width: 20%;
 }
 
 @media (max-width: 767px) {

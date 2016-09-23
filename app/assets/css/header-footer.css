@@ -121,7 +121,7 @@
 
 /* Footer */
 
-footer {
+.footer {
   position: fixed;
   bottom: 15px;
   width: 100%;
