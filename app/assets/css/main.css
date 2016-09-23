@@ -1,6 +1,9 @@
+html, body {
+    font-size: 16px;
+}
+
 body {
    font-family: 'Helvetica Neue', 'HelveticaNeue', 'Helvetica', 'Arial', 'Lucida Grande', sans-serif;
-   font-size: 16px;
    line-height: 1.3;
 }
 
@@ -22,9 +25,13 @@ p {
     margin-bottom: 2em;
 }
 
-.first-blurb {
-    font-size: 1.3em;
-    margin-bottom: 2em;
+.hero-copy p {
+    max-width: 450px;
+}
+
+.first-blurb p {
+    font-size: 1.25rem;
+    margin-bottom: 1em;
 }
 
 .first-blurb .pre-title {
@@ -161,26 +168,26 @@ a {
 
 .quote {
     position: relative;
-    border: none;
-    font-size: 1em;
+    border-color: #B6DDF0;
+    max-width: 78%;
+    font-size: 1rem;
+    font-style: italic;
     font-family: 'Cormorant Garamond', serif;
-    text-align: justify;
-    quotes: "\201C""\201D""\2018""\2019";
+    /*quotes: "\201C""\201D""\2018""\2019";*/
 }
 
-.quote::before {
-    position: absolute;
-    top: 15px;
-    left: -15px;
-    content: open-quote;
-    font-size: 4em;
-    line-height: 0.1em;
-    margin-right: 0.25em;
-    vertical-align: -0.4em;
+.quote p {
+    color: #999;
 }
 
-.quote .name {
+.quote footer {
+    font-family: 'Helvetica Neue', 'HelveticaNeue', 'Helvetica', 'Arial', 'Lucida Grande', sans-serif;
+    font-style: normal;
     font-weight: 800
+}
+
+.quote footer::before {
+    content: '';
 }
 
 .quotemark {
@@ -236,16 +243,6 @@ a {
     background-size: contain;
 }
 
-#hugo {
-    background-image: url('../img/ball.png');
-}
-
-#georg {
-    background-position: center right;
-    background-image: url('../img/cantor.png');
-    margin-right: -15px
-}
-
 .inspiration-blurb {
     font-size: 0.85em;
 }
@@ -271,7 +268,7 @@ a {
 
 
 .build-nav {
-    font-size: 2rem;
+    font-size: 1.3rem;
     text-align: center;
 }
 
@@ -295,19 +292,37 @@ a {
 }
 
 .section-copy p {
-    max-width: 80%;
+    max-width: 78%;
+}
+
+.copy-image,
+.copy-image--full-width {
+    margin-bottom: 2rem;
 }
 
 .copy-image {
     width: 20%;
     margin-left: 2rem;
-    margin-bottom: 2rem;
+}
+
+.copy-image--full-width {
+    margin-top: 2rem;
+    width: 78%;
+}
+
+.discovery .copy-image--full-width,
+.delivery .copy-image--full-width {
+    margin: 0;
 }
 
 @media (max-width: 767px) {
     [data-current-page=build] .section,
     [data-current-page=organise] .section {
         padding-top: 160px;
+    }
+
+    .first-blurb p {
+        font-size: 1rem;
     }
 
     .section-copy p {
@@ -317,5 +332,26 @@ a {
 
     .copy-image {
         width: 30%;
+    }
+
+    .copy-image--full-width {
+        width: 100%;
+    }
+
+    .hero__home-page .pre-title {
+        font-size: 1.4rem;
+    }
+
+    .hero__home-page .img-responsive {
+        display: none;
+    }
+
+    .quote {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .service-box {
+        padding: 0 15px;
     }
 }

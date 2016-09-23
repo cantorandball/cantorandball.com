@@ -25,7 +25,10 @@
 </head>
 
 <body>
-    {% body %}
+    {{partial "header"}}
+    <div class="container" id="fullpage-whole">
+        {% body %}
+    </div>
 
     <footer class="footer">
         <div class="container">
@@ -34,7 +37,6 @@
             </div>
         </div>
     </footer>
-
 </body>
 
 </html>
