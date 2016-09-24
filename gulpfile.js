@@ -21,7 +21,8 @@ var app    = assemble(),
 // Configuration
 
 var paths = {
-    files: ['./app/CNAME'],
+    // files: ['./app/CNAME'],
+    files: [],
     html:  ['./app/views'],
     img:   ['./app/assets/img/**/*'],
     js:    ['./node_modules/bootstrap/dist/js/bootstrap.min.js'],
