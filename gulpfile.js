@@ -53,10 +53,7 @@ gulp.task('compile', ['clean'], function() {
 
 gulp.task('images', function() {
     return gulp.src(paths.img)
-    .pipe(imagemin({
-        multipass: true,
-        svgoPlugins: [{collapseGroups: false, removeViewBox: false}]
-    }))
+    .pipe(imagemin([imagemin.optipng(), imagemin.svgo()]))
     .pipe(gulp.dest('./dist/img'));
 });
 
