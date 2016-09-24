@@ -102,7 +102,7 @@ gulp.task('html', ['load'], function () {
 gulp.task('rev', function() {
     var revAll = new RevAll({
         dontRenameFile: [/\.html/, /CNAME$/, /humans\.txt/],
-        dontUpdateReference: [/humans\.txt/]
+        dontUpdateReference: [/.html/, /humans\.txt/]
     });
 
     gulp.src('dist/**')
