@@ -22,6 +22,14 @@
     <link rel="stylesheet" type="text/css" href="css/header-footer.css" >
 
     <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(function() {
+            var $collapsibleNav = $('#collapsible-primary-nav');
+            $collapsibleNav.on('click', 'a', function() {
+                $collapsibleNav.collapse('hide');
+            });
+        });
+    </script>
 </head>
 
 <body>
