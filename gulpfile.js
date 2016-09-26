@@ -84,7 +84,7 @@ gulp.task('files', function() {
 gulp.task('watch', function() {
     gulp.watch(paths.html + '/**/*.hbs', ['html']);
     gulp.watch(paths.img,  ['images']);
-    gulp.watch('/app/assets/scss/**/*.scss',  ['stylesheets']);
+    gulp.watch('./app/assets/scss/**/*.scss',  ['stylesheets']);
 
     gulp.watch('./dist/*.html').on('change', reload);
 });
