@@ -10,6 +10,8 @@ body {
 p {
     line-height: 1.4;
     margin-bottom: 1em;
+    font-size: 1rem;
+    color: #4c4c4c;
 }
 
 .section {
@@ -23,6 +25,14 @@ p {
 #first-row {
     margin-top: 8em;
     margin-bottom: 2em;
+}
+
+.hero__banner {
+    font-size: 3rem;
+}
+
+.hero__home-page .pre-title {
+    font-size: 2.25rem;
 }
 
 .hero-copy p {
@@ -134,7 +144,7 @@ h2 {
     margin-bottom: .4em;
     color: #515664;
     font-family: $font-body;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 1.8em
 }
 
@@ -143,11 +153,6 @@ h2 {
 }
 
 /* Text */
-
-p {
-    font-size: 1em;
-    color: #4c4c4c;
-}
 
 a {
     color: #009FDF;
@@ -172,26 +177,26 @@ a {
 .quote {
     position: relative;
     border-color: #B6DDF0;
-    font-size: 1rem;
-    font-style: italic;
-    font-family: $font-quote;
 }
 
 .quote p {
     color: #999;
+    font-style: italic;
+    font-family: $font-quote;
 }
 
 .quote footer {
     font-family: $font-body;
+    font-size: .8rem;
     font-style: normal;
-    font-weight: 800
+    font-weight: 700
 }
 
 .quote footer::before {
     content: '';
 }
 
-.services .quote {
+.services .quote p {
     font-size: .8rem;
 }
 
