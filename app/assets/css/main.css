@@ -169,11 +169,9 @@ a {
 .quote {
     position: relative;
     border-color: #B6DDF0;
-    max-width: 78%;
     font-size: 1rem;
     font-style: italic;
     font-family: 'Cormorant Garamond', serif;
-    /*quotes: "\201C""\201D""\2018""\2019";*/
 }
 
 .quote p {
@@ -188,6 +186,10 @@ a {
 
 .quote footer::before {
     content: '';
+}
+
+.services .quote {
+    font-size: .8rem;
 }
 
 .quotemark {
@@ -310,8 +312,7 @@ a {
     width: 78%;
 }
 
-.discovery .copy-image--full-width,
-.delivery .copy-image--full-width {
+.discovery .copy-image--full-width {
     margin: 0;
 }
 
