@@ -5390,6 +5390,20 @@ p {
   font-size: 1rem;
   color: #4c4c4c; }
 
+a,
+a:hover {
+  color: #009FDF;
+  text-decoration: none; }
+
+a {
+  border-bottom: 1px dotted #009FDF; }
+
+a:hover {
+  border-bottom-style: solid; }
+
+.header a {
+  border: none; }
+
 .section {
   padding: 50px 0 65px 0; }
 
@@ -5401,7 +5415,8 @@ p {
   margin-bottom: 2em; }
 
 .hero__banner {
-  font-size: 3rem; }
+  font-size: 3rem;
+  color: #009FDF; }
 
 .hero__home-page .pre-title {
   font-size: 2.25rem; }
@@ -5423,58 +5438,6 @@ p {
   max-width: 960px;
   margin-bottom: 600px; }
 
-/* Colours */
-.blue {
-  color: #009FDF; }
-
-.blue-bg {
-  background-color: #009FDF; }
-
-.orange {
-  color: #ED8B00; }
-
-.orange-bg {
-  background-color: #ED8B00; }
-
-.pink {
-  color: #D40F7D; }
-
-.pink-bg {
-  background-color: #D40F7D; }
-
-.green {
-  color: #00843D; }
-
-.green-bg {
-  background-color: #00843D; }
-
-.burgundy {
-  color: #BA0C2F; }
-
-.burgundy-bg {
-  background-color: #BA0C2F; }
-
-.purple {
-  color: purple; }
-
-.purple-bg {
-  background-color: purple; }
-
-#nav-services:hover {
-  color: #009FDF; }
-
-#nav-sustainability:hover {
-  color: #00843D; }
-
-#nav-inspiration:hover {
-  color: #BA0C2F; }
-
-#nav-clients:hover {
-  color: #D40F7D; }
-
-#nav-contact:hover {
-  color: purple; }
-
 /* Titles */
 h1,
 h2,
@@ -5495,11 +5458,12 @@ h2 {
 
 .titles {
   margin: 5em 0 3em 0; }
+  .titles h2 {
+    color: #009FDF; }
+  .titles .pre-title {
+    color: #515664; }
 
 /* Text */
-a {
-  color: #009FDF; }
-
 .text {
   margin-bottom: 24px; }
 
@@ -5518,6 +5482,7 @@ a {
 
 .quote p {
   color: #999;
+  font-size: 1.2rem;
   font-style: italic;
   font-family: "Cormorant Garamond", serif; }
 
@@ -5539,13 +5504,15 @@ a {
   margin-bottom: 30px; }
 
 .service-box a {
+  border: none;
   text-decoration: none; }
 
 .read-more {
-  color: #009FDF; }
+  color: #009FDF;
+  border-bottom: 1px dotted #009FDF; }
 
 .service-box a:hover .read-more {
-  text-decoration: underline; }
+  border-bottom-style: solid; }
 
 .links {
   padding-left: 20px;
