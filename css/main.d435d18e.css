@@ -5392,14 +5392,7 @@ p {
 
 a,
 a:hover {
-  color: #009FDF;
-  text-decoration: none; }
-
-a {
-  border-bottom: 1px dotted #009FDF; }
-
-a:hover {
-  border-bottom-style: solid; }
+  color: #009FDF; }
 
 .header a {
   border: none; }
@@ -5508,11 +5501,10 @@ h2 {
   text-decoration: none; }
 
 .read-more {
-  color: #009FDF;
-  border-bottom: 1px dotted #009FDF; }
+  color: #009FDF; }
 
 .service-box a:hover .read-more {
-  border-bottom-style: solid; }
+  text-decoration: underline; }
 
 .links {
   padding-left: 20px;
