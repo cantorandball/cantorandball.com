@@ -12,6 +12,7 @@ var assemble     = require('assemble'),
     imagemin     = require('gulp-imagemin'),
     RevAll       = require('gulp-rev-all'),
     runSequence  = require('run-sequence'),
+    sass         = require('gulp-sass'),
     shell        = require('gulp-shell'),
     size         = require('gulp-size');
 
@@ -26,10 +27,7 @@ var paths = {
     html:  ['./app/views'],
     img:   ['./app/assets/img/**/*'],
     js:    ['./node_modules/bootstrap/dist/js/bootstrap.min.js'],
-    css:   [
-        './node_modules/bootstrap/dist/css/bootstrap.min.css',
-        './app/assets/css/**/*.css'
-    ]
+    css:   ['./app/assets/scss/main.scss']
 };
 
 
@@ -72,6 +70,7 @@ gulp.task('javascripts', function() {
 
 gulp.task('stylesheets', function() {
     return gulp.src(paths.css)
+    .pipe(sass())
     .pipe(autoprefixer())
     .pipe(gulp.dest('./dist/css'))
     .pipe(reload({stream: true}));
@@ -85,7 +84,7 @@ gulp.task('files', function() {
 gulp.task('watch', function() {
     gulp.watch(paths.html + '/**/*.hbs', ['html']);
     gulp.watch(paths.img,  ['images']);
-    gulp.watch(paths.css,  ['stylesheets']);
+    gulp.watch('/app/assets/scss/**/*.scss',  ['stylesheets']);
 
     gulp.watch('./dist/*.html').on('change', reload);
 });

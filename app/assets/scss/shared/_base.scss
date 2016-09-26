@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-   font-family: 'Helvetica Neue', 'HelveticaNeue', 'Helvetica', 'Arial', 'Lucida Grande', sans-serif;
+   font-family: $font-body;
    line-height: 1.3;
 }
 
@@ -118,19 +118,21 @@ p {
 
 /* Titles */
 
-h1, h2, h3{
-    font-family: 'bevan', cursive;
+h1,
+h2,
+h3 {
+    font-family: $font-title;
     margin: 0;
 }
 
 h2 {
-    font-size: 27pt;
+    font-size: 2.25rem;
 }
 
 .pre-title {
     margin-bottom: .4em;
     color: #515664;
-    font-family: 'Helvetica Neue', 'HelveticaNeue', 'Helvetica', 'Arial', 'Lucida Grande', sans-serif;
+    font-family: $font-body;
     font-weight: 800;
     font-size: 1.8em
 }
@@ -171,7 +173,7 @@ a {
     border-color: #B6DDF0;
     font-size: 1rem;
     font-style: italic;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: $font-quote;
 }
 
 .quote p {
@@ -179,7 +181,7 @@ a {
 }
 
 .quote footer {
-    font-family: 'Helvetica Neue', 'HelveticaNeue', 'Helvetica', 'Arial', 'Lucida Grande', sans-serif;
+    font-family: $font-body;
     font-style: normal;
     font-weight: 800
 }
@@ -192,21 +194,11 @@ a {
     font-size: .8rem;
 }
 
-.quotemark {
-    font-family: "Georgia", serif;
-    font-size: 2em;
-}
-
 /* Services */
 
 .service-box {
     padding: 15px 0;
     margin-bottom: 30px;
-}
-
-.service-box h3 {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 3em
 }
 
 .service-box a {
