@@ -5386,7 +5386,9 @@ body {
 
 p {
   line-height: 1.4;
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  font-size: 1rem;
+  color: #4c4c4c; }
 
 .section {
   padding: 50px 0 65px 0; }
@@ -5397,6 +5399,12 @@ p {
 #first-row {
   margin-top: 8em;
   margin-bottom: 2em; }
+
+.hero__banner {
+  font-size: 3rem; }
+
+.hero__home-page .pre-title {
+  font-size: 2.25rem; }
 
 .hero-copy p {
   max-width: 450px; }
@@ -5482,17 +5490,13 @@ h2 {
   margin-bottom: .4em;
   color: #515664;
   font-family: "Roboto", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 1.8em; }
 
 .titles {
   margin: 5em 0 3em 0; }
 
 /* Text */
-p {
-  font-size: 1em;
-  color: #4c4c4c; }
-
 a {
   color: #009FDF; }
 
@@ -5510,23 +5514,23 @@ a {
 
 .quote {
   position: relative;
-  border-color: #B6DDF0;
-  font-size: 1rem;
+  border-color: #B6DDF0; }
+
+.quote p {
+  color: #999;
   font-style: italic;
   font-family: "Cormorant Garamond", serif; }
 
-.quote p {
-  color: #999; }
-
 .quote footer {
   font-family: "Roboto", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: .8rem;
   font-style: normal;
-  font-weight: 800; }
+  font-weight: 700; }
 
 .quote footer::before {
   content: ''; }
 
-.services .quote {
+.services .quote p {
   font-size: .8rem; }
 
 /* Services */
@@ -5759,6 +5763,8 @@ div.cb_footer_logo {
   .navbar-default .navbar-collapse {
     border-color: #949494;
     background: white; }
+  #primary-nav {
+    margin: 0 0.9375rem; }
   #sub-nav li {
     float: left; }
   #sub-nav a {
